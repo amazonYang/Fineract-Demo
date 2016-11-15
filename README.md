@@ -22,3 +22,5 @@ Additional:
 2. Startup fineract docker image with startup parameters for db host, username, password. 
 3. Copy fineract-dev.mekar.id.conf
 
+##API tester
+This can be found on /api-docs/

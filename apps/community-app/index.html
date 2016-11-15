@@ -3,18 +3,16 @@
 <head>
     <meta charset="utf-8">
     <link rel="icon" type="image/png" href="./images/favicon.ico" ng-if="!isFaviconPath" />
-    <link rel="icon" type="image/png" href="{{faviconPath}}" ng-if="isFaviconPath" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <title>{{ 'label.heading.mifosxclient' | translate }}</title>
     <style>[data-ng-cloak] { display: none !important; }</style>
-
 </head>
 <body  class="preview whitebg" id="top" data-spy="scroll" data-target=".subnav" data-offset="80" data-ng-controller="MainController">
 <!--Loader -->
 
 <div id="loaderWrapper" data-ng-hide="domReady" style="position: absolute; height: 100%; width: 100%; top: 0;">
     <div id="loader" style="margin: 175px auto">
-        <img src="./images/MifosX_logo.png" alt="MifosX" style="min-width: 50px;   width: 6%; margin: 0 auto" class="img-responsive">
-        <img src="./images/loader.gif" style="margin: 10px auto" class="img-responsive">
+        <img src="./images/mekar_logo.png" alt="Mekar" style="min-width: 50px;   width: 6%; margin: 0 auto" class="img-responsive">
     </div>
 </div>
 <div data-ng-hide="!domReady" data-ng-cloak>
@@ -66,8 +64,8 @@
         </div>
         <div class="row col-md-8 col-lg-offset-2 paddedbottom">
         	<div class="col-md-3">
-                <img src="./images/MifosX_logo.png" alt="Mifos X" width="150" class="img-responsive" ng-if="!isBigLogoPath"/>
-                <img src="{{bigLogoPath}}" alt="Mifos X" width="150" class="img-responsive" ng-if="isBigLogoPath">
+                <img src="./images/mekar_logo.png" alt="Mekar" width="150" class="img-responsive" ng-if="!isBigLogoPath"/>
+                <img src="{{bigLogoPath}}" alt="Mekar" width="150" class="img-responsive" ng-if="isBigLogoPath">
             </div>
             <div class="col-md-9">
                 <h1>{{ 'label.heading.mifosx' | translate }}</h1>
@@ -82,11 +80,6 @@
                     <div style="background-color: #F5F5F5;border-bottom: 1px solid #DDDDDD;padding: 10px 15px;margin: -15px -15px 15px;">
                         <strong>{{ 'label.heading.resources' | translate }}</strong>
                     </div>
-                    <ul>
-                        <li><a target="https://mifosforge.jira.com/wiki/display/MIFOS/User+Manual" href="https://mifosforge.jira.com/wiki/display/MIFOS/User+Manual">{{ 'label.anchor.usermanual' | translate }}</a></li>
-                        <li><a target="https://mifosforge.jira.com/wiki/pages/viewpage.action?pageId=14712842" href="https://mifosforge.jira.com/wiki/pages/viewpage.action?pageId=14712842">{{ 'label.anchor.functionalspec' | translate }}</a></li>
-                        <li><a href="https://mifosforge.jira.com/wiki/display/MDZ/Welcome+in+the+Zone">{{ 'label.anchor.developerzone' | translate }}</a></li>
-                    </ul>
                 </div>
         </div>
         <div class="col-md-4">
@@ -94,11 +87,6 @@
                     <div style="background-color: #F5F5F5;border-bottom: 1px solid #DDDDDD;padding: 10px 15px;margin: -15px -15px 15px;">
                         <strong>{{ 'label.heading.community' | translate }}</strong>
                     </div>
-                    <ul>
-                        <li><a target="https://groups.google.com/forum/#!forum/mifosusers" href="https://groups.google.com/forum/#!forum/mifosusers">{{ 'label.anchor.usersgroup' | translate }}</a></li>
-                        <li><a target="https://groups.google.com/forum/#!forum/mifosdeveloper" href="https://groups.google.com/forum/#!forum/mifosdeveloper">{{ 'label.anchor.developergroup' | translate }}</a></li>
-                        <li><a target="http://mifos.org/resources/community/communications/#mifos-irc" href="http://mifos.org/community/communications/mifos-irc">{{ 'label.anchor.irc' | translate }}</a></li>
-                    </ul>
                 </div>
         </div>
         <div class="col-md-4">
@@ -106,13 +94,7 @@
                     <div style="background-color: #F5F5F5;border-bottom: 1px solid #DDDDDD;padding: 10px 15px;margin: -15px -15px 15px;">
                         <strong>{{ 'label.heading.contribute' | translate }}</strong>
                     </div>
-                    <ul>
-                        <li><a target="https://mifosforge.jira.com/wiki/display/MDZ/Key+Design+Principles" href="https://mifosforge.jira.com/wiki/display/MDZ/Key+Design+Principles/">{{ 'label.anchor.keydesignprinciples' | translate }}</a></li>
-                        <li><a target="https://mifosforge.jira.com/wiki/display/MDZ/Working+with+Code" href="http://sourceforge.net/projects/mifos/">{{ 'label.anchor.workingwithcode' | translate }}</a></li>
-                        <li><a target="http://mifos.org/donate/" href="http://mifos.org/donate/">{{ 'label.anchor.donate' | translate }}</a></li>
-                    </ul>
                 </div>
-
         </div>
       </div>
     </div>
@@ -173,8 +155,8 @@
         	<div class="container-fluid container">
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <a class="brand" href="#/home">
-                        <img src="./images/MifosX_logoSmall.png" alt="Mifos X" height="20" ng-if="!isHeaderLogoPath">
-                        <img src="{{headerLogoPath}}" alt="Mifos X" height="20" ng-if="isHeaderLogoPath">
+                        <img src="./images/mekar_logo_small.png" alt="Mekar" height="20" ng-if="!isHeaderLogoPath">
+                        <img src="{{headerLogoPath}}" alt="Mekar" height="20" ng-if="isHeaderLogoPath">
                     </a>
                     <ul class="nav navbar-nav" id="main-menu-left">
                         <li class="dropdown">
@@ -246,7 +228,7 @@
                     </div>
                     <!-- Footer -->
 					<footer>
-						<p align="center"> <a href="https://mifosforge.jira.com/browse/MIFOSX/component/11710/?selectedTab=com.atlassian.jira.jira-projects-plugin:component-changelog-panel" target="_blank"> {{'label.relVersion' | translate}} {{version}} | {{'label.relDate' | translate}} {{releasedate}} </a> </p>
+						<p align="center"> </p>
 					</footer>
                     <hr>
                 </div> <!-- /row-fluid -->

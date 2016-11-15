@@ -1,15 +1,10 @@
 # ************************************************************
-# Sequel Pro SQL dump
-# Version 4541
+# MySQL Database dump
 #
-# http://www.sequelpro.com/
-# https://github.com/sequelpro/sequelpro
-#
-# Host: mekar-mysql-dev.ceufcrwhm3fb.ap-southeast-2.rds.amazonaws.com (MySQL 5.6.27-log)
-# Database: fineract_tenants_dev
+# Host: local (MySQL 5.6.27-log)
+# Database: fineract_tenants
 # Generation Time: 2016-11-14 09:40:34 +0000
 # ************************************************************
-
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -18,7 +13,6 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
-
 
 # Dump of table schema_version
 # ------------------------------------------------------------
