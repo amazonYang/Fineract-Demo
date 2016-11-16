@@ -29,7 +29,8 @@
                    clientAuth="false" sslProtocol="TLS" URIEncoding="UTF-8" compression="force" 
                    compressableMimeType="text/html,text/xml,text/plain,text/javascript,text/css" />
 		<Connector port="8009" protocol="AJP/1.3" redirectPort="8443" />
-        <Connector port="8080" protocol="HTTP/1.1" connectionTimeout="20000" redirectPort="443" scheme="https" secure="true" SSLEnabled="true" />
+        <Connector port="8080" protocol="HTTP/1.1" connectionTimeout="20000" redirectPort="443" 
+				   scheme="https" secure="true" SSLEnabled="true" proxyPort="443" />
 		<Engine name="Catalina" defaultHost="localhost">
 			<Realm className="org.apache.catalina.realm.LockOutRealm">
 				<Realm className="org.apache.catalina.realm.UserDatabaseRealm" resourceName="UserDatabase" />
